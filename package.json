@@ -10,5 +10,8 @@
     "asciichart": "^1.5.7",
     "chalk": "^2.4.1"
   },
-  "bin": "./index.js"
+  "bin": "./index.js",
+  "scripts": {
+    "debug": "ping -t google.com | node --inspect-brk=9229 ./index.js"
+  }
 }
