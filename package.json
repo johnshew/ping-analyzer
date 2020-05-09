@@ -12,6 +12,7 @@
   },
   "bin": "./index.js",
   "scripts": {
-    "debug": "ping -t google.com | node --inspect-brk=9229 ./index.js"
+    "debug": "ping -t google.com | node --inspect-brk=9229 ./index.js",
+    "start": "ping -t google.com | node ./index.js"
   }
 }
