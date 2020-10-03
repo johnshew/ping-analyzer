@@ -5,9 +5,10 @@ Analyzes network performance on the terminal
 
 ## Installation
 
-npm install
+`npm install`
 
 ## Usage
 
-ping -s 1200 google.com | npm start
+`ping -s 1200 google.com | npm start`
 
+`ping -t google.com | npx github:johnshew/ping-analyzer`
